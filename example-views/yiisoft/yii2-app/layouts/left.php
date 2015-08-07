@@ -80,6 +80,9 @@ use yii\widgets\Menu;
             ],
         ]) ?>
 
+
+
+        <?=  Yii::$app->cache->get('menulist-'.Yii::$app->user->id) ?>
     </section>
 
 </aside>
