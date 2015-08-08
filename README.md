@@ -19,13 +19,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install AdminLTE v2 run:
 
 ```
-php composer.phar require dmstr/yii2-adminlte-asset "2.*"
+php composer.phar require zc/yii2-adminlte-asset "2.*"
 ```
 
 To install AdminLTE v1 run:
 
 ```
-php composer.phar require dmstr/yii2-adminlte-asset "1.*"
+php composer.phar require zc/yii2-adminlte-asset "1.*"
 ```
 
 
@@ -42,7 +42,7 @@ For Yii 2 [Application Template](https://github.com/yiisoft/yii2-app-advanced) o
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                '@app/views' => '@vendor/zc/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
              ],
          ],
     ],
@@ -57,7 +57,7 @@ For [Phundament 4](https://github.com/phundament/app)
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/phundament/app'
+                '@app/views' => '@vendor/zc/yii2-adminlte-asset/example-views/phundament/app'
             ],
         ],
     ],
